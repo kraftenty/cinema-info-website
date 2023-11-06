@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+}
+body {
+    background: linear-gradient(45deg, black,black, rgb(132, 11, 11));
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    margin-top: 60px;
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 18px;
+}
+header:hover {
+    background-color: #222222;
+    transition: 0.5s ease;
+}
+header .header-main {
+    font-size: 1.3em;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+header a:hover {
+    color: #888888;
+    transition: 0.5s ease;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
