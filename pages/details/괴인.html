@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>영화 상세보기 - 시네마인포</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="details_style.css">
+    <script src="details_script.js"></script>
+    <style>
+        body {
+            background: linear-gradient(45deg, #793, #000,#000);
+        }
+    </style>
+</head>
+<body>
+    <div class="movie-detail">
+        <div class="poster">
+            <img src="../../images/poster/괴인.jpeg" alt="영화 포스터">
+            <h1>괴인</h1>
+            2023
+        </div>
+        <div class="info">
+            <!--소개글-->
+            <h3>영화 소개</h3>
+            <p>
+                운전을 하던 목수 ‘기홍’은 
+                자신의 차 지붕이 찌그러진 걸 
+                우연히 발견한다
+            </p>
+            <p>
+                공사 중인 학원 앞에 세워 둔 차 위로
+                누군가 뛰어내린 사실을 알게 된 ‘기홍’은
+                범인을 찾자는 집주인 ‘정환’의 부추김에
+                늦은 밤 학원으로 향하고,
+                신원 미상의 인물이 창밖으로
+                도망치는 것을 목격하는데…
+            </p>
+            <p>
+                “누군가 창밖으로 뛰어내린 밤부터
+                모든 것이 조금씩 어긋나기 시작했다”
+            </p>
+            <!--예고편. 유튜브 width=400, height=300-->
+            <br>
+            <h3>예고편</h3>
+            <iframe width="400" height="300" src="https://www.youtube.com/embed/knCrgJ89R5E?si=w9SWxg-LfcMJ984M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <!--영화정보-->
+            <br>
+            <h3>영화 정보</h3>
+            <p>
+                <table>
+                    <tr>
+                        <th>개봉</th>
+                        <td>2023.11.08</td>
+                        <th>평점</th>
+                        <td>7.8</td>
+                    </tr>
+                    <tr>
+                        <th>장르</th>
+                        <td>드라마</td>
+                        <th>누적관객</th>
+                        <td>10,873명</td>
+                    </tr>
+                    <tr>
+                        <th>국가</th>
+                        <td>한국</td>
+                        <th>박스오피스</th>
+                        <td>59위</td>
+                    </tr>
+                    <tr>
+                        <th>등급</th>
+                        <td>15세이상관람가</td>
+                        <th>수상내역</th>
+                        <td>11회 무주산골영화제</td>
+                    </tr>
+                    <tr>
+                        <th>러닝타임</th>
+                        <td>136분</td>
+                    </tr>
+                </table>
+            </p>
+        </div>
+        <br>
+    </div>
+    <button class="back-button" onclick="history.back()">이전으로</button>
+</body>
+</html>

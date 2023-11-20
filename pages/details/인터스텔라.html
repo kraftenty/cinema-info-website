@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>영화 상세보기 - 시네마인포</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="details_style.css">
+    <script src="details_script.js"></script>
+    <style>
+        body {
+            background: linear-gradient(45deg, #EEE, #000,#000);
+        }
+    </style>
+</head>
+<body>
+    <div class="movie-detail">
+        <div class="poster">
+            <img src="../../images/poster/인터스텔라.jpeg" alt="영화 포스터">
+            <h1>인터스텔라</h1>
+            2014
+        </div>
+        <div class="info">
+            <!--소개글-->
+            <h3>영화 소개</h3>
+            <p>
+                `우린 답을 찾을 거야, 늘 그랬듯이`
+            </p>
+            <p>
+                세계 각국의 정부와 경제가 완전히 붕괴된 미래가 다가온다.
+                지난 20세기에 범한 잘못이 전 세계적인 식량 부족을 불러왔고, NASA도 해체되었다.
+                이때 시공간에 불가사의한 틈이 열리고, 남은 자들에게는 이 곳을 탐험해 인류를 구해야 하는 임무가 지워진다.
+                사랑하는 가족들을 뒤로 한 채 인류라는 더 큰 가족을 위해, 그들은 이제 희망을 찾아 우주로 간다.
+                그리고 우린 답을 찾을 것이다. 늘 그랬듯이…
+            </p>
+            <!--예고편. 유튜브 width=400, height=300-->
+            <br>
+            <h3>예고편</h3>
+            <iframe width="400" height="300" src="https://www.youtube.com/embed/d2VN6NNa9BE?si=VdfBr_gGpwKoIcPn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <!--영화정보-->
+            <br>
+            <h3>영화 정보</h3>
+            <p>
+                <table>
+                    <tr>
+                        <th>개봉</th>
+                        <td>2014.11.06</td>
+                        <th>평점</th>
+                        <td>8.0</td>
+                    </tr>
+                    <tr>
+                        <th>장르</th>
+                        <td>SF</td>
+                        <th>누적관객</th>
+                        <td>10,342,523명</td>
+                    </tr>
+                    <tr>
+                        <th>국가</th>
+                        <td>미국</td>
+                        <th>등급</th>
+                        <td>12세이상관람가</td>
+                    </tr>
+                    <tr>
+                        <th>수상내역</th>
+                        <td>10회 맥스무비 최고의 영화상</td>
+                    </tr>
+                    <tr>
+                        <th>러닝타임</th>
+                        <td>169분</td>
+                    </tr>
+                </table>
+            </p>
+        </div>
+        <br>
+    </div>
+    <button class="back-button" onclick="history.back()">이전으로</button>
+</body>
+</html>

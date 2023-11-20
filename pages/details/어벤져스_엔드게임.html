@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>영화 상세보기 - 시네마인포</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="details_style.css">
+    <script src="details_script.js"></script>
+    <style>
+        body {
+            background: linear-gradient(45deg, #A3A, #000,#000);
+        }
+    </style>
+</head>
+<body>
+    <div class="movie-detail">
+        <div class="poster">
+            <img src="../../images/poster/어벤져스_엔드게임.jpeg" alt="영화 포스터">
+            <h1>어벤져스: 엔드게임</h1>
+            2019
+        </div>
+        <div class="info">
+            <!--소개글-->
+            <h3>영화 소개</h3>
+            <p>
+                인피니티 워 이후 절반만 살아남은 지구
+                마지막 희망이 된 어벤져스
+                먼저 떠난 그들을 위해 모든 것을 걸었다!
+                위대한 어벤져스
+                운명을 바꿀 최후의 전쟁이 펼쳐진다!
+            </p>
+            <!--예고편. 유튜브 width=400, height=300-->
+            <br>
+            <h3>예고편</h3>
+            <iframe width="400" height="300" src="https://www.youtube.com/embed/Ko2NWhXI9e8?si=NvcDIZAeQecIC1hd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <!--영화정보-->
+            <br>
+            <h3>영화 정보</h3>
+            <p>
+                <table>
+                    <tr>
+                        <th>개봉</th>
+                        <td>2019.04.24</td>
+                        <th>평점</th>
+                        <td>7.9</td>
+                    </tr>
+                    <tr>
+                        <th>장르</th>
+                        <td>액션/SF</td>
+                        <th>누적관객</th>
+                        <td>13,977,602명</td>
+                    </tr>
+                    <tr>
+                        <th>국가</th>
+                        <td>미국</td>
+                        <th>등급</th>
+                        <td>12세이상관람가</td>
+                    </tr>
+                    <tr>
+                        <th>수상내역</th>
+                        <td>26회 미국배우조합상</td>
+                    </tr>
+                    <tr>
+                        <th>러닝타임</th>
+                        <td>181분</td>
+                    </tr>
+                </table>
+            </p>
+        </div>
+        <br>
+    </div>
+    <button class="back-button" onclick="history.back()">이전으로</button>
+</body>
+</html>

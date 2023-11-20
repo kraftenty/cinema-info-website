@@ -6,6 +6,9 @@ body {
     justify-content: center; /* 가로 중앙 정렬 */
     align-items: center; /* 세로 중앙 정렬 */
     height: 100vh; /* 전체 뷰포트 높이 */
+    /* 페이드인 */
+    opacity: 0;
+    transition: opacity 1s ease-in; /* 부드러운 페이드 인 효과 */
 }
 
 .movie-detail {

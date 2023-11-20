@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>영화 상세보기 - 시네마인포</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="details_style.css">
+    <script src="details_script.js"></script>
+    <style>
+        body {
+            background: linear-gradient(45deg, #EEE, #000,#000);
+        }
+    </style>
+</head>
+<body>
+    <div class="movie-detail">
+        <div class="poster">
+            <img src="../../images/poster/뉴_노멀.jpeg" alt="영화 포스터">
+            <h1>뉴 노멀</h1>
+            2023
+        </div>
+        <div class="info">
+            <!--소개글-->
+            <h3>영화 소개</h3>
+            <p>
+                새로운 시대가 열렸다. 
+                오늘, 당신의 공포는 일상이 된다.
+            </p>
+            <!--예고편. 유튜브 width=400, height=300-->
+            <br>
+            <h3>예고편</h3>
+            <iframe width="400" height="300" src="https://www.youtube.com/embed/fJaumoClies?si=yIGXshi4rt3k7k5h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <!--영화정보-->
+            <br>
+            <h3>영화 정보</h3>
+            <p>
+                <table>
+                    <tr>
+                        <th>개봉</th>
+                        <td>2023.11.08</td>
+                        <th>평점</th>
+                        <td>9.5</td>
+                    </tr>
+                    <tr>
+                        <th>장르</th>
+                        <td>스릴러</td>
+                        <th>누적관객</th>
+                        <td>96,398명</td>
+                    </tr>
+                    <tr>
+                        <th>국가</th>
+                        <td>한국</td>
+                        <th>박스오피스</th>
+                        <td>27위</td>
+                    </tr>
+                    <tr>
+                        <th>등급</th>
+                        <td>15세이상관람가</td>
+                    </tr>
+                    <tr>
+                        <th>러닝타임</th>
+                        <td>113분</td>
+                    </tr>
+                </table>
+            </p>
+        </div>
+        <br>
+    </div>
+    <button class="back-button" onclick="history.back()">이전으로</button>
+</body>
+</html>

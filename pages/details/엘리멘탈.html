@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>영화 상세보기 - 시네마인포</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="details_style.css">
+    <script src="details_script.js"></script>
+    <style>
+        body {
+            background: linear-gradient(45deg, #CAF, #000,#000);
+        }
+    </style>
+</head>
+<body>
+    <div class="movie-detail">
+        <div class="poster">
+            <img src="../../images/poster/엘리멘탈.jpeg" alt="영화 포스터">
+            <h1>엘리멘탈</h1>
+            2023
+        </div>
+        <div class="info">
+            <!--소개글-->
+            <h3>영화 소개</h3>
+            <p>
+                디즈니·픽사의 놀라운 상상력! 
+                올여름, 세상이 살아 숨 쉰다 
+            </p>
+            <p>
+                불, 물, 공기, 흙 4개의 원소들이 살고 있는 ‘엘리멘트 시티’
+                재치 있고 불처럼 열정 넘치는 ‘앰버'는 어느 날 우연히
+                유쾌하고 감성적이며 물 흐르듯 사는 '웨이드'를 만나 특별한 우정을 쌓으며,
+                지금껏 믿어온 모든 것들이 흔들리는 새로운 경험을 하게 되는데...
+            </p>
+            <p>
+                제 76회 칸 영화제 폐막작 선정!
+                &lt;굿 다이노&gt; 피터 손 감독 연출
+                &lt;인사이드 아웃&gt;, &lt;소울&gt; 피트 닥터 제작 참여
+            </p>
+            <p>
+                6월 14일 극장 대개봉,
+                웰컴 투 ‘엘리멘트 시티’!
+            </p>
+            <!--예고편. 유튜브 width=400, height=300-->
+            <br>
+            <h3>예고편</h3>
+            <iframe width="400" height="300" src="https://www.youtube.com/embed/BOqFRHCrN-k?si=b1phFXIc0LLLgM_x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <!--영화정보-->
+            <br>
+            <h3>영화 정보</h3>
+            <p>
+                <table>
+                    <tr>
+                        <th>개봉</th>
+                        <td>2023.06.14</td>
+                        <th>평점</th>
+                        <td>8.6</td>
+                    </tr>
+                    <tr>
+                        <th>장르</th>
+                        <td>애니메이션</td>
+                        <th>누적관객</th>
+                        <td>7,236,547명</td>
+                    </tr>
+                    <tr>
+                        <th>국가</th>
+                        <td>미국</td>
+                        <th>등급</th>
+                        <td>전체관람가</td>
+                    </tr>
+                    <!-- <tr>
+                        <th>수상내역</th>
+                        <td>89회 아카데미시상식</td>
+                    </tr> -->
+                    <tr>
+                        <th>러닝타임</th>
+                        <td>109분</td>
+                    </tr>
+                </table>
+            </p>
+        </div>
+        <br>
+    </div>
+    <button class="back-button" onclick="history.back()">이전으로</button>
+</body>
+</html>

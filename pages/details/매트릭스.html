@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>영화 상세보기 - 시네마인포</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="details_style.css">
+    <script src="details_script.js"></script>
+    <style>
+        body {
+            background: linear-gradient(45deg, #6FF, #000,#000);
+        }
+    </style>
+</head>
+<body>
+    <div class="movie-detail">
+        <div class="poster">
+            <img src="../../images/poster/매트릭스.jpeg" alt="영화 포스터">
+            <h1>매트릭스</h1>
+            1999
+        </div>
+        <div class="info">
+            <!--소개글-->
+            <h3>영화 소개</h3>
+            <p>
+                서기 2199년,
+                인공지능 AI에 의해 인류가 재배되고 있다!
+            </p>
+            <p>
+                인간의 기억마저 AI에 의해 입력되고 삭제 되는 세상. 
+                진짜보다 더 진짜 같은 가상 현실 ‘매트릭스’. 
+                그 속에서 진정한 현실을 인식할 수 없게 재배되는 인간들.
+            </p>
+            <p>
+                그 ‘매트릭스’를 빠져 나오면서 AI에게 가장 위험한 인물이 된 ‘모피어스’는 
+                자신과 함께 인류를 구할 마지막 영웅 ‘그’를 찾아 헤맨다.
+                마침내 ‘모피어스’는 낮에는 평범한 회사원으로, 
+                밤에는 해커로 활동하는 청년 ‘네오’를 ‘그’로 지목하는데…
+            </p>
+            <p>
+                꿈에서 깨어난 자들,
+                이제 그들이 만드는 새로운 세상이 열린다!
+            </p>
+            <!--예고편. 유튜브 width=400, height=300-->
+            <br>
+            <h3>예고편</h3>
+            <iframe width="400" height="300" src="https://www.youtube.com/embed/9mn4seqI8Vs?si=WsLr6Ovu6c_SD5sm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <!--영화정보-->
+            <br>
+            <h3>영화 정보</h3>
+            <p>
+                <table>
+                    <tr>
+                        <th>개봉</th>
+                        <td>1999.05.15</td>
+                        <th>평점</th>
+                        <td>9.3</td>
+                    </tr>
+                    <tr>
+                        <th>장르</th>
+                        <td>액션/SF</td>
+                        <th>누적관객</th>
+                        <td>2,500,000명</td>
+                    </tr>
+                    <tr>
+                        <th>국가</th>
+                        <td>오스트레일리아, 미국</td>
+                        <th>등급</th>
+                        <td>12세이상관람가</td>
+                    </tr>
+                    <tr>
+                        <th>수상내역</th>
+                        <td>72회 아카데미시상식</td>
+                    </tr>
+                    <tr>
+                        <th>러닝타임</th>
+                        <td>135분</td>
+                    </tr>
+                </table>
+            </p>
+        </div>
+        <br>
+    </div>
+    <button class="back-button" onclick="history.back()">이전으로</button>
+</body>
+</html>

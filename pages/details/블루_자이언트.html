@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>영화 상세보기 - 시네마인포</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="details_style.css">
+    <script src="details_script.js"></script>
+    <style>
+        body {
+            background: linear-gradient(45deg, #049, #000,#000);
+        }
+    </style>
+</head>
+<body>
+    <div class="movie-detail">
+        <div class="poster">
+            <img src="../../images/poster/블루_자이언트.jpeg" alt="영화 포스터">
+            <h1>블루 자이언트</h1>
+            2023
+        </div>
+        <div class="info">
+            <!--소개글-->
+            <h3>영화 소개</h3>
+            <p>
+                “세계 최고가 될 거야, 반드시” 
+                언제나 강가에서 홀로 색소폰을 불던 고등학생 ‘다이’는 
+                세계 최고의 재즈 플레이어에 도전하기 위해 도쿄로 향한다. 
+            </p>
+            <p>
+                “실력이 안 되면 같이 안 할 거니까”
+                우연히 재즈 클럽에서 엄청난 연주 실력을 뽐내는
+                천재 피아니스트 ‘유키노리’를 만나 밴드 결성을 제안하고, 
+            </p>
+            <p>
+                “나도 드럼을 칠 수 있을까?”
+                ‘다이’의 고등학교 동창이자 평범한 대학생이던 ‘슌지’가
+                열정 가득한 초보 드러머로 합류하면서 밴드 ‘JASS 재스’가 탄생한다.
+            </p>
+            <p>
+                “전력을 다해 연주하자! 분명 전해질 거야”
+                목표는 최고의 재즈 클럽 ‘쏘 블루’! 10대의 마지막 챕터를 바친
+                JASS 재스의 격렬하고 치열한 연주가 지금, 바로, 여기서 시작된다!
+            </p>
+            <!--예고편. 유튜브 width=400, height=300-->
+            <br>
+            <h3>예고편</h3>
+            <iframe width="400" height="300" src="https://www.youtube.com/embed/JXD2v-GeZuc?si=qhJK_r1rMIvGJa3f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <!--영화정보-->
+            <br>
+            <h3>영화 정보</h3>
+            <p>
+                <table>
+                    <tr>
+                        <th>개봉</th>
+                        <td>2023.10.18</td>
+                        <th>평점</th>
+                        <td>8.8</td>
+                    </tr>
+                    <tr>
+                        <th>장르</th>
+                        <td>애니메이션/드라마</td>
+                        <th>누적관객</th>
+                        <td>109,334명</td>
+                    </tr>
+                    <tr>
+                        <th>국가</th>
+                        <td>일본</td>
+                        <th>박스오피스</th>
+                        <td>20위</td>
+                    </tr>
+                    <tr>
+                        <th>등급</th>
+                        <td>12세이상관람가</td>
+                        <th>쿠키영상</th>
+                        <td>1개</td>
+                    </tr>
+                    <tr>
+                        <th>러닝타임</th>
+                        <td>119분</td>
+                    </tr>
+                </table>
+            </p>
+        </div>
+        <br>
+    </div>
+    <button class="back-button" onclick="history.back()">이전으로</button>
+</body>
+</html>
