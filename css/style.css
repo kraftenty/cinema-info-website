@@ -6,7 +6,7 @@ body {
     color: white;
 }
 header {
-    background-color: #8B0000; /* 짙은 빨간색 */
+    background-color: #8B0000;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -31,7 +31,7 @@ header {
 }
 
 .navbar a:hover {
-    background-color: #700000; /* 어두운 빨간색 */
+    background-color: #700000;
 }
 .navbar a:active {
     background-color: #300000;
@@ -48,7 +48,7 @@ main {
     max-width: 80%; /* 최대 너비 설정 */
     margin: auto; /* 자동 마진으로 중앙 정렬 */
     padding-top: 60px; /* 상단바 아래에 콘텐츠가 시작되도록 여백 추가 */
-    min-height: 80vh; /* 푸터를 하단에 유지하기 위해 */
+    min-height: 80vh; /* 푸터를 하단에 유지 */
 }
 a{
     text-decoration: none;

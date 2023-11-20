@@ -4,6 +4,59 @@
     <title>시네마인포</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
+    <script src="/js/home_script.js"></script>
+    <style>
+        #current-time {
+            color: white;
+        }
+        .button-container {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .movie-button {
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            transform-style: preserve-3d;
+            transition: transform 0.5s ease;
+            background-size: cover;
+        }
+
+        .movie-button {
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            transform-style: preserve-3d;
+            transition: transform 0.5s ease;
+            background-size: cover;
+        }
+
+        #cgv-button {
+            background-image: url('/images/link/cgv.png');
+        }
+
+        #megabox-button {
+            background-image: url('/images/link/메가박스.png');
+        }
+
+        #lotte-cinema-button {
+            background-image: url('/images/link/롯데시네마.png');
+        }
+
+        .movie-button:hover {
+            transform: rotateY(180deg);
+        }
+        #name {
+            font-size: 2em;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -18,10 +71,50 @@
         </nav>
     </header>
     <main>
-        안녕하세요.
+        <p><small>영화 정보는 이곳에서 ...</small></p>
+        <h1>시네마인포</h1>
+        <hr>
+        <h3>영화 예매하기 (현재시간:<span id="current-time"></span>)</h3>
+        <div class="button-container">
+            <button id="cgv-button" class="movie-button"></button>
+            <button id="megabox-button" class="movie-button"></button>
+            <button id="lotte-cinema-button" class="movie-button"></button>
+        </div>
+        <hr>
+        <h3>웹사이트 제작자 소개</h3>
+        <span id="name"><i>고경태(Ko Kyeong Tae)</i></span>
+        <ul>
+            <li>서울과학기술대학교 컴퓨터공학과 2학년</li>
+            <li>1인 제작</li>
+            <li>깃허브 Repository : <a href="https://github.com/kraftenty/cinema-info-website">https://github.com/kraftenty/cinema-info-website</a></li>
+            <li>참고한 사이트 / 포스터 출처 : Daum 영화</li>
+        </ul>
     </main>
     <footer>
         &copy; 2023 시네마인포 by Ko Kyeong Tae
     </footer>
+    <script>
+        const time = document.getElementById('current-time'); 
+
+        setInterval(() => {
+            const date = new Date();
+            time.innerHTML = date.toLocaleTimeString();
+        }, 1000);
+
+        document.getElementById("cgv-button").addEventListener("click", function() {
+            alert("CGV 예매 페이지로 이동합니다.");
+            window.open("https://www.cgv.co.kr", "_blank");
+        });
+
+        document.getElementById("megabox-button").addEventListener("click", function() {
+            alert("Megabox 예매 페이지로 이동합니다.");
+            window.open("https://www.megabox.co.kr", "_blank");
+        });
+
+        document.getElementById("lotte-cinema-button").addEventListener("click", function() {
+            alert("Lotte Cinema 예매 페이지로 이동합니다.");
+            window.open("https://www.lottecinema.co.kr", "_blank");
+        });
+    </script>
 </body>
 </html>
